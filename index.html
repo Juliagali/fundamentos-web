@@ -5,9 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .center{
+            text-align: center;
+        }
+    </style>
+
+
 </head>
 <body>
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html"> Home </a>
         </li>
@@ -15,40 +23,62 @@
             <a href="contato.html"> Contato </a>
         </li>
     </ul>
-    
 
     <h1>Sobre a Julia</h1>
-    <h2>sub</h2>
-    <h3>sub</h3>
-    <h4>sub</h4>
-    <h5>sub</h5>
-    <h6>sub</h6>
 
-    <p>
-        Lorem ipsum dolor sit amet consectetur, 
-        adipisicing elit. Distinctio labore dolorem minus, 
-        facilis nesciunt quae nihil dolores voluptatibus, 
-        voluptate quas dignissimos accusantium qui aliquid a
-        excepturi atque sed rerum sequi?
-    </p>
-    <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae ipsa cumque ex quidem numquam eum harum placeat iste, 
-        odio molestiae libero deleniti nobis veniam! A quae ad 
-        libero necessitatibus incidunt?
-    </p>
-
-    <img src="assets/99364759.png" alt="Foto da criadora desse conteudo">
+    <div class="container">
+            
+            <div>
+                <img class="br-50 wh-300 p-30" src="assets/julia.png" alt="Foto da criadora desse conteudo">
+            </div>
+            
+            <div class="p-30">
+            <p class="justify">
+                Lorem ipsum dolor sit amet consectetur, 
+                adipisicing elit. Distinctio labore dolorem minus, 
+                facilis nesciunt quae nihil dolores voluptatibus, 
+                voluptate quas dignissimos accusantium qui aliquid a
+                excepturi atque sed rerum sequi?
+            </p>
+            <p class="justify">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae ipsa cumque ex quidem numquam eum harum placeat iste, 
+                odio molestiae libero deleniti nobis veniam! A quae ad 
+                libero necessitatibus incidunt?
+            </p>
+            </div>
+    </div>
     
-    <h2>Meu video predileto</h2>
-
-    <iframe width="560" 
+    <h2 class="center">Meu video predileto</h2>
+    
+    <div class="container mb-50">
+        <iframe width="560" 
         height="315" 
         src="https://www.youtube.com/embed/22nd99SLgNA" 
         title="YouTube video player" 
         frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
         allowfullscreen>
-    </iframe>
+        </iframe>  
+    </div>
+
+    <hr>
+    <footer>
+    <div class="container">
+        <a href="https://www.linkedin.com/in/julia-gali-barroso/" target="_blank">
+            <img class="tm-social p-30" src="assets/linkedin.png" alt="Logo do Linkedin">
+        </a>
+        
+        <a href="https://github.com/Juliagali" target="_blank">
+            <img class="tm-social p-30" src="assets/github.png" alt="Logo do Github">
+        </a>
+    </div>
+
+        <p class="container">
+            Todos os direitos reservados: Julia Gali
+        </p>
+    </footer>
+
+
 
 </body>
 </html>
